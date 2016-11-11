@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.pringstudio.androidkejar.MainActivity">
 
+    <TextView
+        android:text="Selamat ulang tahun, Chip!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Dari John."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <!-- Ini komentar, akan diabaikan -->
     <ImageView
         android:src="@drawable/birthday"
