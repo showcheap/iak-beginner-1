@@ -6,22 +6,25 @@
     android:layout_height="match_parent"
     tools:context="com.pringstudio.androidkejar.MainActivity">
 
+    <!-- Pindah kebawah, yang paling bawah di layout adalah paling atas -->
+
+    <ImageView
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <TextView
+        android:textColor="@android:color/darker_gray"
         android:text="Selamat ulang tahun, Chip!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:text="Dari John."
+        android:textColor="#f3f3f3"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <!-- Ini komentar, akan diabaikan -->
-    <ImageView
-        android:src="@drawable/birthday"
-        android:scaleType="centerCrop"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </RelativeLayout>
